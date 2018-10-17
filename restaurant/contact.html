@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact Us</title>
+	</head>
+	<body>
+    	<center><h1>Contact Me</h1></center>
+      <nav>
+        <hr />
+        <p><a href="index.html">Home</a> &nbsp;
+        <a href="menu.html">Menu</a>&nbsp;
+        <a href="contact.html">Contact Us</a></p>
+        <hr />
+      </nav>
+      <center>
+    	<form action="submit.html" method="POST">
+    		<label for="name">Name:</label>
+    		<input type="text" id="name" name="name"><br />
+
+    		<label for="email">Email:</label>
+    		<input type="text" id="email" name="email"><br />
+
+    		<label for="phone">Phone:</label>
+    		<input type="text"id="phone" name="phone"><br />
+
+    		<label for="reason">Reason for Inquiry:</label>
+    		<select id="reason" name="reason">
+    			<option value="catering" selected>Catering</option>
+    			<option value="private">Private Party</option>
+    			<option value="feedback">feedback</option>
+    			<option value="other">Other</option>
+    		</select><br />
+
+
+        <label for="info">Additional Information:</label>
+        <textarea id="info"></textarea><br />
+
+        <label>Have you been to the restaurant?</label>
+        <input type="radio" id="choice1" name="visited" value="yes">
+        <label for="choice1">Yes</label>
+        <input type="radio" id="choice2" name="visited" value="no">
+        <label for="choice2">No</label><br />
+
+    		<label>Best days to contact you: </label>
+    		<input type="checkbox" id="m" name="days" value="m">
+    		<label for="frontEnd">M</label>
+        <input type="checkbox" id="t" name="days" value="t">
+        <label for="frontEnd">T</label>
+        <input type="checkbox" id="w" name="days" value="w">
+    		<label for="frontEnd">W</label>
+        <input type="checkbox" id="th" name="days" value="th">
+    		<label for="frontEnd">Th</label>
+        <input type="checkbox" id="f" name="days" value="f">
+    		<label for="frontEnd">F</label>			<br />
+
+
+
+    		<input type="submit" name="submit" value="Send Request">
+    	</form>
+      </center>
+      <footer>
+          <hr />
+          <center>
+          <p>504 University Ave SE | Minneapolis, MN | 55414</p>
+          <p>612-978-9944</p>
+          </center>
+      </footer>
+	</body>
+</html>
