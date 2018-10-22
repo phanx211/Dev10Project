@@ -1,0 +1,45 @@
+nav {
+    text-align: left;
+    padding-left: 10px;
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+nav .btn {
+    background-color: #e6ecff;
+    color: #fef9ff;
+}
+
+nav .btn:hover {
+    font-weight: bold;
+}
+
+a:hover {
+   font-weight: bold;
+ }
+
+ a:visited {
+   color:red;
+ }
+
+ a:active {
+   font-weight: normal;
+ }
+
+
+header {
+  text-align: center;
+  font-family: arial;
+}
+
+footer {
+  font-size: 100%;
+  border-top: thin #5b7d87 solid;
+  overflow: auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
