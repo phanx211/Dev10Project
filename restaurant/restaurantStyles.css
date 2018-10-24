@@ -1,10 +1,10 @@
 nav {
-    text-align: left;
     padding-left: 10px;
     border-top: thin #5b7d87 solid;
     border-bottom: thin #5b7d87 solid;
     padding-top: 12px;
     padding-bottom: 12px;
+    margin-bottom: 1%;
 }
 
 nav .btn {
@@ -20,26 +20,37 @@ a:hover {
    font-weight: bold;
  }
 
- a:visited {
-   color:red;
- }
+.jumbotron {
+background-color: #e6f7ff;
+}
 
- a:active {
-   font-weight: normal;
- }
+.content {
+background-color: #e6f7ff;
+padding-top: 1%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 1%;
+}
+
+a:visited {
+ color:red;
+}
+
+a:active {
+ font-weight: normal;
+}
 
 
 header {
-  text-align: center;
-  font-family: arial;
+  padding-left: 100px;
+  padding-right: 50px;
 }
 
 footer {
+  margin-top: 20px;
   font-size: 100%;
   border-top: thin #5b7d87 solid;
-  overflow: auto;
   text-align: center;
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
