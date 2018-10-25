@@ -36,9 +36,7 @@ function play() {
      rolls++;
      if (money > max_money) {
        max_money = money;
-       console.log(max_money);
        max_rolls = rolls;
-       console.log(max_rolls);
      }
    }
 
