@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/JavaScript" src="clickToAddItems.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <header class="jumbotron">
+        <h1>Lucky Sevens</h1>
+    </header>
+
+    <form name="luckySeven" onsubmit="return play()">
+				  <div class="form-group row">
+				    <label id="required" class="col-sm-2 col-form-label">Starting Bet:</label>
+				    <div class="col-sm-4 pull-left">
+				      <input type="number" id="bet" step="0.01" class="form-control" placeholder="Enter bet here" name="number" required>
+				    </div>
+				  </div>
+          <div class="form-group row">
+            <div class="col-sm-6 text-center">
+              <button type="submit" id="submitButton" class="btn"><h4>Play<h4></button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 text-center">
+              <p id="again"style="display: none;"> Enter new or same bet and press button to play again</p>
+            </div>
+          </div>
+    </form>
+    <div class="table-responsive">
+          <table style="display: none; width:50%;" id="results" class="table table-striped">
+              <thead>
+                  <tr>
+                      <th>Starting Bet</th>
+                      <th><span id="startingBet"></span></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Total Rolls Before Going Broke (+)</td>
+                      <td><span id="rolls"></span></td>
+                  </tr>
+                  <tr>
+                      <td>Highest Amount Won</td>
+                      <td><span id="maxMoney"></span></td>
+                  </tr>
+                  <tr>
+                      <td>Roll Count at Highest Amount Won</td>
+                      <td><span id="maxRolls"></span></td>
+                  </tr>
+              </tbody>
+          </table>
+    </div>
+</div>
+</body>
+</html>
